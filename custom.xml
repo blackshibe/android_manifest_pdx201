@@ -15,7 +15,7 @@
     <project path="device/sony/pdx201" name="android_device_sony_pdx201" groups="device" remote="custom" branch="lineage-19.1" />
 
     <!-- kernel -->
-    <project path="kernel/sony/pdx201" name="android_kernel_sony_sm6125" groups="device" remote="custom" branch="lineage-19.1" />
+    <project path="kernel/sony/sm6125" name="android_kernel_sony_sm6125" groups="device" remote="custom" branch="lineage-19.1" />
 
     <!-- vendor -->
     <project path="vendor/sony/pdx201" name="android_proprietary_vendor_pdx201" groups="device" remote="custom" revision="master" />
