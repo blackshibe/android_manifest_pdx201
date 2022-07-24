@@ -9,10 +9,9 @@
 
     <!-- common device tree -->
     <project path="device/sony/common" name="device-sony-common" groups="device" remote="sony" revision="s-mr1" />
-    <project path="device/sony/seine" name="device-sony-seine" groups="device" remote="sjllls" revision="master-triple-cam" />
+    <project path="device/sony/seine" name="device-sony-seine" groups="device" remote="sjllls" revision="r-mr1-libperfmgr" />
 
     <!-- device tree -->
-    <!-- <project path="device/sony/pdx201" name="device-sony-pdx201" groups="device" remote="sjllls" revision="q-mr1-cams" /> -->
     <project path="device/sony/pdx201" name="android_device_sony_pdx201" groups="device" remote="custom" branch="lineage-19.1" />
 
     <!-- kernel -->
