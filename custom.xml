@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="sony" fetch="https://github.com/sonyxperiadev/" />
-    <remote name="custom" fetch="https://github.com/blackshibe/" />
+    <remote name="blackshibe" fetch="https://github.com/blackshibe/" />
     <remote name="sjllls" fetch="https://github.com/sjllls/" />
-    <remote name="some_random_ancient_fucking_repo" fetch="https://github.com/ant-wireless/" />
 
     <project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="sony" revision="s-mr1" />
 
@@ -12,15 +11,14 @@
     <project path="device/sony/seine" name="device-sony-seine" groups="device" remote="sjllls" revision="master-triple-cam" />
 
     <!-- device tree -->
-    <project path="device/sony/pdx201" name="android_device_sony_pdx201" groups="device" remote="custom" branch="lineage-19.1" />
+    <project path="device/sony/pdx201" name="android_device_sony_pdx201" groups="device" remote="blackshibe" branch="crdroid-11.0" />
 
     <!-- kernel -->
-    <project path="kernel/sony/sm6125" name="android_kernel_sony_sm6125" groups="device" remote="custom" branch="lineage-19.1" />
+    <project path="kernel/sony/sm6125" name="android_kernel_sony_sm6125" groups="device" remote="blackshibe" branch="lineage-18.1" />
 
     <!-- vendor -->
-    <project path="vendor/sony/pdx201" name="android_proprietary_vendor_pdx201" groups="device" remote="custom" revision="master" />
+    <project path="vendor/sony/pdx201" name="android_proprietary_vendor_pdx201" groups="device" remote="blackshibe" revision="master" />
 
-    <!-- needed to compile or something idk  -->
+    <!-- missing deps  -->
     <project path="vendor/qcom/opensource/gpt-utils" name="vendor-qcom-opensource-gpt-utils" groups="device" remote="sony" revision="master" />
-    <project path="external/ant-wireless/antradio-library" name="Android_antradio-library" groups="device" remote="some_random_ancient_fucking_repo" revision="master" />
-34</manifest>
+</manifest>
